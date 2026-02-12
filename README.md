@@ -24,13 +24,16 @@ To build this project, you will need the following components:
 | Component | ESP32 Pin |
 | :--- | :--- |
 | **TFT Display** | *See User_Setup.h* |
-| **I2S Amp (LRC)** | *Define in Sketch* |
-| **I2S Amp (BCLK)**| *Define in Sketch* |
-| **I2S Amp (DIN)** | *Define in Sketch* |
-| **SD Card CS** | *Define in Sketch* |
-| **Button Up** | *Define in Sketch* |
-| **Button Down** | *Define in Sketch* |
-| **Button Play** | *Define in Sketch* |
+| **I2S Amp (LRC)** | *GPIO 6* |
+| **I2S Amp (BCLK)**| *GPIO 5* |
+| **I2S Amp (DIN)** | *GPIO 4* |
+| **SD Card MOSI** | *GPIO 2* |
+| **SD Card MISO** | *GPIO 1* |
+| **SD Card SCK** | *GPIO 42* |
+| **SD Card CS** | *GPIO 41* |
+| **Button Up** | *GPIO 13* |
+| **Button Down** | *GPIO 14* |
+| **Button Play** | *GPIO 8* |
 
 *(Check the main Arduino sketch for the specific pin definitions used in this build)*
 
